@@ -1,0 +1,38 @@
+{
+  "lang": "en",
+  "name": "Mewing NET",
+  "short_name": "Mewing",
+  "description": "The ultimate online platform for mastering mewing. Here, you can join exciting contests, share your mewing videos, and see how you stack up against fellow enthusiasts.",
+  "id": "https://mewing.flappygrant.com",
+  "start_url": "https://mewing.flappygrant.com/",
+  "shortcuts": [
+    {
+      "name": "Your Profile",
+      "short_name": "Profile",
+      "description": "View your profile and stats",
+      "url": "/profile"
+    },
+    {
+      "name": "Help",
+      "short_name": "Help",
+      "description": "Get help with the app",
+      "url": "https://help-mewing.flappygrant.com/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Anton";
+  src: url("/fonts/Anton-Regular.ttf") format("truetype");
+}
+
+/* Theme Colors */
+:root {
+  --background-1: #ffffff;
+  --foreground-1: #000000;
+
+  --background-2: #efefef;
+
+  --background-3: #dfdfdf;
+
+  --background-4: #cfcfcf;
+}
+
+.bg-1 {
+  background-color: var(--background-1);
+}
+
+.text-1 {
+  color: var(--foreground-1);
+}
+
+.bg-2 {
+  background-color: var(--background-2);
+}
+
+.bg-3 {
+  background-color: var(--background-3);
+}
+
+.bg-4 {
+  background-color: var(--background-4);
+}
+
+.font-anton {
+  font-family: "Anton";
+}
+
+/* Base */
+@theme inline {
+  --color-background: var(--background-1);
+  --color-foreground: var(--foreground-1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #000000;
+}
+
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background-1);
+  color: var(--foreground-1);
+}
+
+/* Element Defaults */
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h6 {
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
